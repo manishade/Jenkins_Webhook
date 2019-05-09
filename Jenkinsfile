@@ -4,8 +4,11 @@ stages{
 stage ('Build')
      {
      steps{
-     echo "Hello World"
-           }
+     sh ' echo "Hello World" '
+     sh ''' echo "hello all"
+     ls -lah
+     '''
+     }
      }
       }
 }
