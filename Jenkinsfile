@@ -4,7 +4,7 @@ stages{
 stage ('Build')
      {
      steps{
-     echo "Hello"
+     echo "Hello World"
            }
      }
       }
